@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Ch	spitest.c	153;"	d	file:
+FIRST_BASE	spitest.c	100;"	d	file:
+GPIO_CLR	spidevc.c	38;"	d	file:
+GPIO_CLR	spitest.c	31;"	d	file:
+GPIO_SET	spidevc.c	37;"	d	file:
+GPIO_SET	spitest.c	30;"	d	file:
+INP_GPIO	spidevc.c	33;"	d	file:
+INP_GPIO	spitest.c	26;"	d	file:
+MAX_TVEC	spitest.c	18;"	d	file:
+Maj	spitest.c	154;"	d	file:
+OUT_GPIO	spidevc.c	34;"	d	file:
+OUT_GPIO	spitest.c	27;"	d	file:
+R	spitest.c	226;"	d	file:
+S0	spitest.c	155;"	d	file:
+S1	spitest.c	156;"	d	file:
+SECOND_BASE	spitest.c	101;"	d	file:
+SET_GPIO_ALT	spidevc.c	35;"	d	file:
+SET_GPIO_ALT	spitest.c	28;"	d	file:
+SHA256_Full	spitest.c	/^static void SHA256_Full(unsigned *state, unsigned *data, const unsigned *st)$/;"	f	file:
+SHA_K	spitest.c	/^static const unsigned SHA_K[64] = {$/;"	v	file:
+SPIDEVC_H	spidevc.h	2;"	d
+SPIMAXSZ	spidevc.c	135;"	d	file:
+a	spitest.c	217;"	d	file:
+atrvec	spitest.c	/^unsigned atrvec[] = {$/;"	v
+b	spitest.c	218;"	d	file:
+blk0	spitest.c	214;"	d	file:
+blk2	spitest.c	215;"	d	file:
+buf	spitest.c	/^char *buf = "Hello, World!\\x55\\xaa";$/;"	v
+c	spitest.c	219;"	d	file:
+call_chip	spitest.c	/^int call_chip(int chip_n)$/;"	f
+config_reg	spitest.c	/^void config_reg(int cfgreg, int ena)$/;"	f
+counters	spitest.c	/^char counters[16] = { 64, 64,$/;"	v
+d	spitest.c	220;"	d	file:
+decnonce	spitest.c	/^unsigned decnonce(unsigned in)$/;"	f
+disconf	spitest.c	/^unsigned char disconf[4] = { 0, 0, 0, 0 };$/;"	v
+e	spitest.c	221;"	d	file:
+enaconf	spitest.c	/^unsigned char enaconf[4] = { 0xc1, 0x6a, 0x59, 0xe3 };$/;"	v
+f	spitest.c	222;"	d	file:
+fix_nonce	spitest.c	/^unsigned fix_nonce(unsigned innonce, unsigned *ms, unsigned *w)$/;"	f
+g	spitest.c	223;"	d	file:
+get_counter	spitest.c	/^int get_counter(unsigned int *newbuf, unsigned int *oldbuf) {$/;"	f
+gpio	spidevc.c	/^static volatile unsigned *gpio;$/;"	v	file:
+gpio	spitest.c	/^static volatile unsigned *gpio;$/;"	v	file:
+h	spitest.c	224;"	d	file:
+hash_testvec_count	tvec.c	/^unsigned hash_testvec_count = sizeof(hash_tvec)\/80;$/;"	v
+hash_testvec_sz	tvec.c	/^unsigned hash_testvec_sz = sizeof(hash_tvec);$/;"	v
+hash_tvec	tvec.c	/^unsigned hash_tvec[] = {$/;"	v
+hash_tvec_filt	tvec.c	/^unsigned char hash_tvec_filt[sizeof(hash_tvec)];$/;"	v
+ini_vec	spitest.c	/^static unsigned ini_vec[8] = { 0x5be0cd19,0x1f83d9ab,0x9b05688c,0x510e527f,0xa54ff53a,0x3c6ef372,0xbb67ae85,0x6a09e667 };$/;"	v	file:
+main	spitest.c	/^void main () {$/;"	f
+midstate0	spitest.c	/^static unsigned midstate3[8], midstate0[8]; \/* HGFEDCBA *\/$/;"	v	file:
+midstate3	spitest.c	/^static unsigned midstate3[8], midstate0[8]; \/* HGFEDCBA *\/$/;"	v	file:
+ms3_compute	spitest.c	/^void ms3_compute(unsigned *p)$/;"	f
+osc	spitest.c	/^unsigned char osc[8]  = { 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }; \/\/ Thermometer code from left to right - more ones ==> faster clock!$/;"	v
+osc2	spitest.c	/^unsigned char osc2[8] = { 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00 }; \/\/ Thermometer code from left to right - more ones ==> faster clock!$/;"	v
+osc3	spitest.c	/^unsigned char osc3[8] = { 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }; \/\/ Thermometer code from left to right - more ones ==> faster clock!$/;"	v
+osc4	spitest.c	/^unsigned char osc4[8] = { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00 };$/;"	v
+osc5	spitest.c	/^unsigned char osc5[8] = { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00 };$/;"	v
+osc6	spitest.c	/^unsigned char osc6[8] = { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x0F, 0x00 };$/;"	v
+outbuf	spitest.c	/^char outbuf[16];$/;"	v
+rotrFixed	spitest.c	150;"	d	file:
+s0	spitest.c	151;"	d	file:
+s1	spitest.c	152;"	d	file:
+sha_initial_state	spitest.c	/^static const unsigned sha_initial_state[8] = {0x6a09e667, 0xbb67ae85, 0x3c6ef372, 0xa54ff53a, 0x510e527f, 0x9b05688c, 0x1f83d9ab, 0x5be0cd19};$/;"	v	file:
+spi_clear_buf	spidevc.c	/^void spi_clear_buf(void) { spibufsz = 0; }$/;"	f
+spi_emit_break	spidevc.c	/^void spi_emit_break(void) { spi_emit_buf("\\x4", 1); }$/;"	f
+spi_emit_buf	spidevc.c	/^void spi_emit_buf(const char *str, unsigned sz)$/;"	f
+spi_emit_buf_reverse	spidevc.c	/^void spi_emit_buf_reverse(const char *str, unsigned sz)$/;"	f
+spi_emit_data	spidevc.c	/^void spi_emit_data(unsigned addr, const char *buf, unsigned len)$/;"	f
+spi_emit_fasync	spidevc.c	/^void spi_emit_fasync(int n) {$/;"	f
+spi_emit_fsync	spidevc.c	/^void spi_emit_fsync(void) { spi_emit_buf("\\x6", 1); }$/;"	f
+spi_getbufsz	spidevc.c	/^unsigned spi_getbufsz(void) { return spibufsz; }$/;"	f
+spi_getrxbuf	spidevc.c	/^unsigned char *spi_getrxbuf(void) { return spibuf_rx; }$/;"	f
+spi_gettxbuf	spidevc.c	/^unsigned char *spi_gettxbuf(void) { return spibuf; }$/;"	f
+spi_init	spidevc.c	/^void spi_init(void)$/;"	f
+spi_reset	spidevc.c	/^void spi_reset(void)$/;"	f
+spi_txrx	spidevc.c	/^int spi_txrx(const char *wrbuf, char *rdbuf, int bufsz)$/;"	f
+spibuf	spidevc.c	/^static unsigned char spibuf[SPIMAXSZ], spibuf_rx[SPIMAXSZ];$/;"	v	file:
+spibuf_rx	spidevc.c	/^static unsigned char spibuf[SPIMAXSZ], spibuf_rx[SPIMAXSZ];$/;"	v	file:
+spibufsz	spidevc.c	/^static unsigned spibufsz;$/;"	v	file:
+test_nonce	spitest.c	/^unsigned test_nonce(unsigned tnon, unsigned *ms, unsigned *w)$/;"	f
+tm_i2c_clear_oe	spitest.c	/^void tm_i2c_clear_oe(unsigned char slot) {$/;"	f
+tm_i2c_set_oe	spitest.c	/^void tm_i2c_set_oe(unsigned char slot) {$/;"	f
